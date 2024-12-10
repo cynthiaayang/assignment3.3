@@ -28,6 +28,8 @@
             font-size: 50px;
             font-weight: bold;
             color: #fff;
+            margin-bottom: 20px;            
+            margin-top: 10px;
         }
 
         nav ul {
@@ -43,10 +45,11 @@
         }
 
         nav ul li a {
+            font-family: Georgia, serif; /* Georgia Font */
+            font-size: 22px; /* Font Size 18 */
             color: #f6dfdf;
             text-decoration: none;
             font-weight: bold;
-            font-size: 18px;
         }
 
         nav ul li a:hover {
@@ -65,21 +68,58 @@
 
         #about h1 {
             font-family: 'Dancing Script', cursive; /* Cursive Font */
-            font-size: 50px; /* Larger Font Size */
+            font-size: 70px; /* Larger Font Size */
             color: #333; /* Black Text */
-            margin-bottom: 20px;
+            margin-bottom: 10px;            
+            margin-top: -40px;
         }
 
-        #portfolio {
+        #myexperiences {
             background-color: #a47b7b; /* Medium Brown */
         }
 
-        #hobbies {
+        #myexperiences h2 {
+            font-family: 'Times New Roman', Times, serif; /* Times New Roman Font */ 
+            font-size: 40px; /* Larger Font Size */
+            color: #333; /* Black Text */
+            margin-bottom: 10px;            
+            margin-top: -40px;
+        }
+
+        #myportfolio {
             background-color: #f6dfdf; /* Light Brown */
         }
 
-        #contact {
+        #myportfolio h2 { 
+            font-family: 'Times New Roman', Times, serif; /* Times New Roman Font */ 
+            font-size: 40px; /* Larger Font Size */
+            color: #333; /* Black Text */
+            margin-bottom: 10px;            
+            margin-top: -40px;
+        }
+
+        #futurepathways {
             background-color: #a47b7b; /* Medium Brown */
+        }
+
+        #futurepathways h2 {
+            font-family: 'Times New Roman', Times, serif; /* Times New Roman Font */
+            font-size: 40px; /* Larger Font Size */
+            color: #333; /* Black Text */
+            margin-bottom: 10px;
+            margin-top: -40px;
+        }
+
+        #contact {
+            background-color: #f6dfdf; /* Medium Brown */
+        }
+
+        #contact h2 {
+            font-family: 'Times New Roman', Times, serif; /* Times New Roman Font */
+            font-size: 40px; /* Larger Font Size */
+            color: #333; /* Black Text */
+            margin-bottom: 20px;            
+            margin-top: -40px;
         }
 
         section h1, section h2 {
@@ -89,10 +129,10 @@
         section p {
             color: #555; /* Dark Gray Paragraph Text */
         }
-
-        /* Table */
+      
+    /* Table */
         table {
-            width: 80%;
+            width: 100%px;
             margin: 20px auto;
             border-collapse: collapse;
             font-size: 16px;
@@ -102,6 +142,8 @@
             border: 1px solid #8c7051;
             padding: 12px;
             text-align: center;
+            font-family: Georgia, serif; /* Georgia Font */
+
         }
 
         table th {
@@ -112,6 +154,7 @@
         table td {
             background-color: #fff; /* White */
         }
+
 
         /* Footer */
         footer {
@@ -140,33 +183,24 @@
 </head>
 <body>
     <header>
-        <div class="logo">Cynthia Yang</div>
+        <div class="logo">Welcome to my Personal Website</div>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#myexperiences">My Experiences</a></li>
+                <li><a href="#myportfolio">My Portfolio</a></li>
+                <li><a href="#futurepathways">Future Pathways & Goals</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="about">
-        <h1>Welcome to My Personal Website</h1>
+        <h1>Cynthia Yang</h1> 
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; text-align: left;">
-            <div style="flex: 1; padding-right: 20px;">
-                <p>
-                    Hi! My name is Cynthia Yang.
-                    I’m studying Global Business & Digital Arts with a minor in Events Management at the University of Waterloo. 
-                    I specialize in digital marketing, social media strategy, and content creation. I am primarily drawn to the 
-                    fast-paced, ever-evolving world of social media, where creativity meets data-driven decision-making. I am a 
-                    curious and driven marketing enthusiast with a passion for social media trends, creative content creation, 
-                    and data analysis. I'm highly motivated about helping brands tell their stories in ways that captivate their 
-                    audience. Beyond the classroom, I am a part of a variety of clubs at University of Waterloo. I am a social 
-                    media director for the SMILE club, University of Waterloo’s women’s basketball student team manager that 
-                    specializes in graphic designs for social media content, and also part of the GBDA ambassador social media team. 
-                    Within my positions, I'm great at combining creativity with strategic thinking. Whether it’s crafting content, 
-                    analyzing data, or optimizing a campaign, I approach each challenge with enthusiasm and a focus on results.
+            <div style="flex: 1; padding-right: 10px;">
+                <p style="font-family: Georgia, serif; font-size: 18px; line-height: 1.8;">
+                Hi! My name is Cynthia Yang:) I’m studying Global Business & Digital Arts with a minor in Events Management at the University of Waterloo. I specialize in digital marketing, social media strategy, and content creation. I am primarily drawn to the fast-paced, ever-evolving world of social media, where creativity meets data-driven decision-making. I am a curious and driven marketing enthusiast with a passion for social media trends, creative content creation, and data analysis. I'm highly motivated about helping brands tell their stories in ways that captivate their  audience. Beyond the classroom, I am a part of a variety of clubs at University of Waterloo. I am a social media director for the SMILE club, University of Waterloo’s Women’s basketball student team manager that specializes in graphic designs for social media content, and also part of the GBDA ambassador social media team. Within my positions, I'm great at combining creativity with strategic thinking. Whether it’s crafting content,  analyzing data, or optimizing a campaign, I approach each challenge with enthusiasm and a focus on results.
                 </p>
             </div>
             <div style="flex: 1; text-align: center;">
@@ -175,52 +209,83 @@
         </div>
     </section>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <table>
-            <tr>
-                <th>Project</th>
-                <th>Description</th>
-                <th>Link</th>
-            </tr>
-            <tr>
-                <td>WARG Onboarding</td>
-                <td>Worked on SPI communication and UAV systems.</td>
-                <td><a href="#">View Project</a></td>
-            </tr>
-            <tr>
-                <td>Stock Prediction Project</td>
-                <td>Developed algorithms for predicting market trends.</td>
-                <td><a href="#">View Details</a></td>
-            </tr>
-        </table>
-    </section>
+  
+   <section id="myexperiences">
+    <h2>My Experiences</h2>
+    <table>
+        <tr>
+            <th style="font-size: 20px;">Project</th>
+            <th style="font-size: 20px;">Description</th>
+            <th style="font-size: 20px;">Link</th>
+        </tr>
+        <tr> 
+            <td style="font-size: 18px;">SMILE Club: Social Media Director</td>
+            <td style="font-size: 16px;">Manages social media calendar & oversees deadlines using Notion to ensure timely and cohesive content posted. I collaborate closely with the graphic design and content creation teams to produce engaging posts that effectively promote the club's initiatives and foster a strong community presence on social media.</td>
+            <td><a href="https://www.instagram.com/uwsmileclub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="font-size: 16px;">Instagram</a></td>
+        </tr>
+        <tr>
+            <td style="font-size: 18px;">University of Waterloo’s Women’s Basketball Student Team Manager</td>
+            <td style="font-size: 16px;">Specializing in creating visually engaging social media content for Instagram stories and posts, specifically designed to promote and highlight the Women's Basketball team.</td>
+            <td><a href="https://www.instagram.com/wloowbb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="font-size: 16px;">Instagram</a></td>
+        </tr>
+        <tr>
+            <td style="font-size: 18px;">GBDA Ambassador</td>
+            <td style="font-size: 16px;">As a member of the GBDA Social Media Team, I create engaging Instagram Reels and create content to showcase the program’s vibrant community. During the Fall ‘24 Open House, I focused on capturing and promoting key moments to attract prospective students and highlight the program's diverse opportunities.</td>
+            <td><a href="https://www.instagram.com/uwstratford?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="font-size: 16px;">Instagram</a></td>
+        </tr>
+        <tr>
+            <td style="font-size: 18px;">Fashion for Change: Head of Events, Graphic Designer & Social Media Coordinator</td>
+            <td style="font-size: 16px;">As a Graphic Designer for Fashion for Change, I created and edited the showbook ‘24 and currently working on ‘25 showbook, as well as designing club merch. In my role as Head Events Manager, I successfully organized key events including the Holiday Market ‘24, currently planning ‘25 Theme Release, and the Fashion Show ‘25, ensuring seamless production and engagement. As a Social Media Coordinator, I manage the club's Instagram presence, developing strategic content to maximize event reach and promote the club's initiatives.</td>
+            <td><a href="https://www.instagram.com/fashionforchange?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="font-size: 16px;">Instagram</a></td>
+        </tr>
+        <tr>
+            <td style="font-size: 18px;">Hera.co: Director of Events</td>
+            <td style="font-size: 16px;">I create networking opportunities for female-identified individuals through both in-person and virtual events. By collaborating with other event directors, I foster a sense of community around the University of Waterloo campus and organize impactful panels on career development and entrepreneurship, featuring partnerships with female-owned and operated businesses.</td>
+            <td><a href="https://www.instagram.com/itshera.co?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="font-size: 16px;">Instagram</a></td>
+        </tr>
+        <tr>
+            <td style="font-size: 18px;">The Women's Network Waterloo Chapter: Events Committee</td>
+            <td style="font-size: 16px;">I work with other executives to plan, execute, and promote major organizational events aimed at engaging women and giving them the skills and opportunities they need to succeed. Also, attending and engaging in executive board meetings, chapter TWN events, and TWN national events.</td>
+            <td><a href="https://www.instagram.com/thewomensnetwork_waterloo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="font-size: 16px;">Instagram</a></td>
+        </tr>
+    </table>
+</section>
 
-    <section id="hobbies">
-        <h2>Hobbies</h2>
+  
+    <section id="myportfolio">
+        <h2>My Portfolio</h2>
         <img src="edm.png" alt="EDM Festival" width="300">
         <p>I enjoy EDM music, travel, and playing golf.</p>
+    </section>
+
+    <section id="futurepathways">
+        <h2>Future Pathways &amp Goals</h2>
+        <p style="font-family: 'Times New Roman', Times, serif; font-size: 18px; color: #333;">
+            My vision for the future is to excel in digital marketing and social media strategy, aiming to work with dynamic brands 
+            that prioritize storytelling and data-driven creativity. I hope to grow in roles that challenge my creativity and analytical skills.
+        </p>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
         <p>
-            <span style="color: #000;">Email:</span> 
-            <a href="mailto:c62yang@uwaterloo.ca">c62yang@uwaterloo.ca</a>
-        </p>
+            <span style="font-family: 'Times New Roman', Times, serif; color: #333; font-size: 25px;">Email:</span> 
+            <a href="mailto:c62yang@uwaterloo.ca" style="font-family: 'Times New Roman', Times, serif; font-size: 20px; color:#a47b7b">
+                c62yang@uwaterloo.ca
+            </a>
+        </p> 
         <p>
-            <span style="color: #000;">Check out my LinkedIn:</span> 
-            <a href="https://www.linkedin.com/in/cynthia-yang-" target="_blank" rel="noopener noreferrer">
+            <span style="font-family: 'Times New Roman', Times, serif; color: #333; font-size: 25px;">Check out my LinkedIn:</span> 
+            <a href="https://www.linkedin.com/in/cynthia-yang-" target="_blank" rel="noopener noreferrer" 
+            style="font-family: 'Times New Roman', Times, serif; font-size: 20px;color:#a47b7b">
                 Cynthia's LinkedIn Profile
             </a>
         </p>
     </section>
-
-    <footer>
+  
+    <footer style="font-family: 'Times New Roman', Times, serif; font-size: 18px; color: #000;">
         <p>&copy; 2024 Cynthia Yang. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
-
-
-
